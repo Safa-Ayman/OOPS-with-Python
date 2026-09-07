@@ -1,0 +1,16 @@
+#Create multiple inheritance
+class parent:
+    def respect(self):
+        print("Respect parents and teachers")
+class teacher:
+    def discipline(self):
+        print("Discipline is must")
+class student(parent,teacher):
+    def listen(self):
+        print("follow your parents and teachers")
+s1=student()
+s1.respect()
+s1.discipline()
+s1.listen()
+
+            
