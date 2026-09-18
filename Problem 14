@@ -9,7 +9,7 @@ class BankAccount:
     def withdraw(self):
         money=int(input("Enter amount to withdraw:"))
         self.Balance=self.Balance-money
-        print(self.Balance)
+        print("Balance:",self.Balance)
     def display_balance(self):
         print("Account Holder:",self.Acc_holder)
         print("Account Number:",self.Acc_no)
