@@ -11,9 +11,9 @@ class BankAccount:
         self.Balance=self.Balance-money
         print(self.Balance)
     def display_balance(self):
-        print(self.Acc_holder)
-        print(self.Acc_no)
-        print(self.Balance)
+        print("Account Holder:",self.Acc_holder)
+        print("Account Number:",self.Acc_no)
+        print("Balance:",self.Balance)
 a=BankAccount()
 a.deposit()
 a.withdraw()
