@@ -1,0 +1,22 @@
+class Vehicle:
+    Brand="Mahindra"
+    Model="XUV_700"
+    def display_details(self):
+        print("Brand: ",self.Brand)
+        print("Model: ",self.Model)
+class Car(Vehicle):
+    Doors=4
+    def display_details(self):
+        super().display_details()
+        print("Number of doors: ",self.Doors)
+class Bike(Vehicle):
+    Engine_cc=155
+    def display_details(self):
+        print("Engine: ",self.Engine_cc,"CC")
+c=Car()
+b=Bike()
+print("Car Details: ")
+c.display_details()
+print("Bike Details: ")
+b.display_details()
+    
